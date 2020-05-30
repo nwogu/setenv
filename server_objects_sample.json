@@ -1,0 +1,73 @@
+{
+    "frontend-staging": {
+        "user": "admin",
+        "ip": "45.158.205.45",
+        "root": "/var/www/myapp-frontend/current",
+        "pem": "/Users/mac/.ssh/adminkey",
+        "tags": ["frontend"]
+    },
+    "frontend-uat": {
+        "user": "admin",
+        "ip": "4.11.58.248",
+        "root": "/var/www/myapp-frontend/current",
+        "pem": "/Users/mac/.ssh/uatkey",
+        "tags": ["frontend", "frontend"]
+    },
+    "frontend-prod-1": {
+        "user": "admin",
+        "ip": "4.11.206.48",
+        "root": "/var/www/myapp-frontend/current",
+        "pem": "/Users/mac/.ssh/anotherkey.pem",
+        "tags": ["frontend", "frontend-prod"]
+    },
+    "frontend-prod-2": {
+        "user": "admin",
+        "ip": "18.140.166.120",
+        "root": "/var/www/myapp-frontend/current",
+        "pem": null,
+        "tags": ["frontend", "frontend-prod"]
+    },
+    "backend-staging": {
+        "user": "admin",
+        "ip": "45.158.205.45",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend"]
+    },
+    "backend-uat": {
+        "user": "admin",
+        "ip": "4.11.58.248",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend", "backend-ut"]
+    },
+    "backend-uat-job": {
+        "user": "admin",
+        "ip": "45.158.16.145",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend", "backend-ut"]
+    },
+
+    "backend-prod-1": {
+        "user": "admin",
+        "ip": "4.8.159.192",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend", "backend-prod"]
+    },
+    "backend-prod-2": {
+        "user": "admin",
+        "ip": "4.9.144.129",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend", "backend-prod"]
+    },
+    "backend-prod-job": {
+        "user": "admin",
+        "ip": "4.11.254.14",
+        "root": "/var/www/myapp/current",
+        "pem": null,
+        "tags": ["backend", "backend-prod"]
+    }
+}
