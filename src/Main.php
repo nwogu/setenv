@@ -118,7 +118,7 @@ class Main
 
         $commands   = $this->getCommands($server_object, $env);
 
-        display($ssh->exec($commands));
+        $this->display($ssh->exec($commands));
 
         $ssh->disconnect();
     }
